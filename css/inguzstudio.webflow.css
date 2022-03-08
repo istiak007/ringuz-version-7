@@ -289,6 +289,11 @@ a {
 
 .section.case-study {
   margin-top: 25em;
+  margin-bottom: 0em;
+}
+
+.section.serv {
+  margin-bottom: 0em;
 }
 
 .container {
