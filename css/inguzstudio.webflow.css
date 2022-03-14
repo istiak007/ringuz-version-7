@@ -1311,6 +1311,11 @@ a {
   align-items: flex-end;
 }
 
+.static-track-div.mbm-ex {
+  opacity: 0.3;
+  font-size: 0.5vw;
+}
+
 .work-note-wr {
   position: absolute;
   left: 56vw;
@@ -1507,8 +1512,8 @@ a {
 }
 
 .clash-hero.is-on-track {
-  margin-right: 10vw;
-  margin-left: 10vw;
+  margin-right: 15vw;
+  margin-left: 15vw;
 }
 
 .footer-2 {
@@ -2793,7 +2798,11 @@ a {
 
 .f-c-texts {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.8;
+}
+
+.f-c-texts.hide {
+  display: none;
 }
 
 .work-linkemb {
@@ -3062,8 +3071,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 60%;
-  height: 24%;
+  width: 100%;
+  height: 20%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4294,7 +4303,7 @@ a {
 }
 
 .nav-link-wr.w--current {
-  padding-top: 0.5em;
+  padding-top: 8px;
   color: #c52032;
   text-decoration: overline;
 }
@@ -4771,10 +4780,10 @@ a {
 }
 
 .cursor_dot {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border-radius: 100vw;
-  background-color: #c52032;
+  background-color: rgba(197, 32, 50, 0.7);
 }
 
 .h-view-case-arrow {
@@ -4802,6 +4811,18 @@ a {
 
 .h-view-case-red-back.contact {
   z-index: 0;
+}
+
+.footer__email {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer__email-small {
+  display: inline-block;
+  border-bottom-width: 0.1em;
+  border-bottom-color: #f6eee3;
+  font-size: 1.1em;
 }
 
 @media screen and (max-width: 991px) {
@@ -4846,6 +4867,10 @@ a {
   .nav-upline {
     left: 3em;
     right: 3em;
+  }
+
+  .hero-social-text.hide {
+    display: none;
   }
 
   .services-single-wrap {
