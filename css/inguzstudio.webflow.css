@@ -2132,6 +2132,10 @@ a {
   width: 2em;
 }
 
+.h-w-show-im.hide {
+  display: none;
+}
+
 .h-w-showall-text {
   position: absolute;
   left: -2%;
@@ -2434,7 +2438,7 @@ a {
 }
 
 .port-hero-im {
-  width: 50em;
+  width: 65em;
 }
 
 .port-details-sec {
@@ -4018,6 +4022,12 @@ a {
   align-items: center;
   border-radius: 20em;
   background-color: #c52032;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+}
+
+.port-visit-site:hover {
+  box-shadow: -2px 2px 11px -2px #c52032;
 }
 
 .port-visit-site-mid {
@@ -4083,6 +4093,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -4095,6 +4106,7 @@ a {
 
 .port-nav-showall-ltext {
   margin-right: 0.4em;
+  margin-bottom: 0.5em;
   font-size: 1.5em;
 }
 
@@ -4107,6 +4119,7 @@ a {
   display: flex;
   width: 2.4em;
   height: 2.4em;
+  margin-bottom: 0.5em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -4117,6 +4130,12 @@ a {
   align-items: center;
   border-radius: 20em;
   background-color: #c52032;
+  -webkit-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease;
+}
+
+.port-nav-showall-ball:hover {
+  box-shadow: -2px 2px 11px -2px #c52032;
 }
 
 .port-nav-showall-ball-mid {
@@ -4240,6 +4259,14 @@ a {
   transform: translate(-100%, 0px);
 }
 
+.sublink__line.ports {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+}
+
 .contact-texts {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
@@ -4295,15 +4322,14 @@ a {
   overflow: hidden;
   margin-right: 1em;
   margin-left: 1em;
+  padding-top: 8px;
   font-family: Montserrat, sans-serif;
   color: #fff;
   font-size: 1.2em;
   line-height: 1.2;
-  text-decoration: none;
 }
 
 .nav-link-wr.w--current {
-  padding-top: 8px;
   color: #c52032;
   text-decoration: overline;
 }
@@ -5329,7 +5355,7 @@ a {
 
   .nav-link-wr.w--current {
     padding-top: 0.2em;
-    text-decoration: none;
+    text-decoration: overline;
   }
 
   .hr-mobile-section {
